@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// 导入样式
+import 'antd-mobile/dist/antd-mobile.css';
 import './index.css';
 import App from './App';
 

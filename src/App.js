@@ -1,3 +1,4 @@
+import React from 'react';
 // 导入路由
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
