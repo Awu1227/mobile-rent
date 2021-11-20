@@ -1,10 +1,5 @@
 import React from "react";
 
-// 导入路由
-import { Route} from 'react-router-dom'
-
-// 导入News组件
-import News from '../News'
 
 // 导入TabBar
 import { TabBar } from 'antd-mobile';
@@ -30,8 +25,6 @@ export default class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                {/*渲染子路由 */}
-                <Route path="/home/news" component={News}></Route>
         <TabBar
           tintColor="#21b97a"
           barTintColor="white"
