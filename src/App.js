@@ -16,9 +16,10 @@ function App() {
         项目的根组件<Button>start</Button>
 
         {/* 配置导航菜单 */}
-
-        <Link to="/home">首页</Link>
-        <Link to="/citylist">城市选择页</Link>
+        <ul>
+          <li><Link to="/home">首页</Link></li>
+          <li><Link to="/citylist">城市选择页</Link></li>
+        </ul>
         {/*配置路由*/}
         <Route path="/home" component={Home}></Route>
         <Route path="/citylist" component={CityList}></Route>
