@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 // 导入路由
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // 导入首页和城市选择两个组件（页面）
-import Home from './pages/Home'
-import CityList from './pages/ListCity'
+import Home from "./pages/Home";
+import CityList from "./pages/CityList";
 
 function App() {
   return (
