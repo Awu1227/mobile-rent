@@ -10,3 +10,6 @@ body {
   /*去掉使用轮播图时Chrome浏览器的警告*/
   touch-action: pan-y;
 }
+h2 {
+  margin: 0;
+}
